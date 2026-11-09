@@ -1,0 +1,14 @@
+
+.hero-slideshow{isolation:isolate;background:#e7d9d9;overflow:hidden}
+.hero-slideshow .hero-slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 1.6s ease,visibility 1.6s;z-index:0}
+.hero-slideshow .hero-slide.active{opacity:1;visibility:visible;z-index:1}
+.hero-slideshow .hero-blur{position:absolute;inset:-35px;background-position:center;background-size:cover;filter:blur(24px) brightness(.83);transform:scale(1.08)}
+.hero-slideshow .hero-slide:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#ffeff112,transparent 35%,#fff5ee15);pointer-events:none}
+.hero-slideshow .hero-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;z-index:1}
+.hero-slideshow-controls{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:5;display:flex;align-items:center;gap:13px;padding:10px 12px;background:#30252cbf;border:1px solid #ffffff80;border-radius:40px;box-shadow:0 4px 24px #231c2290;backdrop-filter:blur(12px)}
+.hero-arrow{border:0;background:transparent;color:white;font-size:29px;line-height:1;cursor:pointer;width:28px}
+.hero-dots{display:flex;gap:9px;align-items:center}
+.hero-dot{width:9px;height:9px;border:1px solid #fff;border-radius:50%;background:transparent;padding:0;cursor:pointer}
+.hero-dot.selected{background:#fff;box-shadow:0 0 9px #fff}
+.hero-arrow:focus-visible,.hero-dot:focus-visible{outline:2px solid #fff;outline-offset:4px}
+@media (prefers-reduced-motion:reduce){.hero-slideshow .hero-slide{transition:none}}
