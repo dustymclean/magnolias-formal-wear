@@ -5,12 +5,7 @@ if(f){
  const topic=document.getElementById('inquiryTopic'),otherLabel=document.getElementById('otherTopicLabel'),other=document.getElementById('otherTopic');
  function syncOther(){const show=topic.value==='Other / something else';otherLabel.classList.toggle('hide-field',!show);other.required=show;if(!show)other.value=''}
  topic.addEventListener('change',syncOther);syncOther();
- f.addEventListener('submit',e=>{
-  e.preventDefault();if(!f.reportValidity())return;
-  const d=new FormData(f),reason=d.get('topic')==='Other / something else'?d.get('otherTopic'):d.get('topic');
-  const body=['Name: '+d.get('name'),'Email: '+d.get('email'),'Reason: '+reason,'','Message:',d.get('message')].join('\n');
-  location.href='mailto:magnoliasformalwear2025@yahoo.com?subject='+encodeURIComponent('Magnolias inquiry: '+reason)+'&body='+encodeURIComponent(body);
- });
+
 }
 const noMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
 const finePointer=window.matchMedia('(pointer:fine)');
