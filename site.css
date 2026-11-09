@@ -21,3 +21,15 @@
 .mouse-sparkle{position:fixed;z-index:9999;pointer-events:none;user-select:none;font-size:13px;text-shadow:0 0 4px #ffffffee,0 0 8px #d1b67c;transform:translate(-50%,-50%);animation:magnoliaTwinkle .85s ease-out forwards}
 @keyframes magnoliaTwinkle{0%{opacity:0;transform:translate(-50%,-50%) scale(.25) rotate(0)}25%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--drift-x)),calc(-50% + var(--drift-y))) scale(.25) rotate(var(--rot))}}
 @media(prefers-reduced-motion:reduce){.mouse-sparkle{display:none!important}}
+
+/* New occasion landing pages; original brand theme and copy retained */
+.page-content-steps{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:35px}
+.occasion-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;max-width:900px;margin:30px auto 5px}
+.occasion-links a{background:#fff;border:1px solid #e8d8df;padding:14px 22px;font-size:12px;font-weight:700;color:#68515c}
+.occasion-links a:hover{border-color:#d4ad56;color:#9a7151}
+.expanded-service-links{max-width:1300px;margin:0 auto 30px;padding-bottom:26px;border-bottom:1px solid #57444f}
+.expanded-service-links strong{display:block;font-size:12px;letter-spacing:.08em;margin-bottom:10px}
+.expanded-service-links div{display:flex;gap:9px 22px;flex-wrap:wrap}
+.expanded-service-links a{font-size:12px;color:#e8d9df}
+.expanded-service-links a:hover{text-decoration:underline}
+@media(max-width:650px){.page-content-steps{grid-template-columns:1fr}}
