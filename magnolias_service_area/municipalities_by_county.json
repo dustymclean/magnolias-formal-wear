@@ -1,0 +1,482 @@
+{
+  "Adams": [
+    "Natchez"
+  ],
+  "Alcorn": [
+    "Corinth",
+    "Farmington",
+    "Glen",
+    "Kossuth",
+    "Rienzi"
+  ],
+  "Amite": [
+    "Gloster",
+    "Liberty",
+    "Crosby"
+  ],
+  "Attala": [
+    "Ethel",
+    "Kosciusko",
+    "McCool",
+    "Sallis"
+  ],
+  "Benton": [
+    "Ashland",
+    "Hickory Flat",
+    "Snow Lake Shores"
+  ],
+  "Bolivar": [
+    "Alligator",
+    "Benoit",
+    "Beulah",
+    "Boyle",
+    "Cleveland",
+    "Duncan",
+    "Gunnison",
+    "Merigold",
+    "Mound Bayou",
+    "Pace",
+    "Renova",
+    "Rosedale",
+    "Shelby",
+    "Shaw",
+    "Winstonville"
+  ],
+  "Calhoun": [
+    "Big Creek",
+    "Bruce",
+    "Calhoun City",
+    "Derma",
+    "Pittsboro",
+    "Slate Springs",
+    "Vardaman"
+  ],
+  "Carroll": [
+    "Carrollton",
+    "North Carrollton",
+    "Vaiden"
+  ],
+  "Chickasaw": [
+    "Houston",
+    "New Houlka",
+    "Okolona",
+    "Woodland"
+  ],
+  "Choctaw": [
+    "Ackerman",
+    "French Camp",
+    "Mathiston",
+    "Weir"
+  ],
+  "Claiborne": [
+    "Port Gibson"
+  ],
+  "Clarke": [
+    "Enterprise",
+    "Pachuta",
+    "Quitman",
+    "Shubuta",
+    "Stonewall"
+  ],
+  "Clay": [
+    "West Point"
+  ],
+  "Coahoma": [
+    "Clarksdale",
+    "Coahoma",
+    "Friars Point",
+    "Jonestown",
+    "Lula",
+    "Lyon"
+  ],
+  "Copiah": [
+    "Beauregard",
+    "Crystal Springs",
+    "Georgetown",
+    "Hazlehurst",
+    "Wesson"
+  ],
+  "Covington": [
+    "Collins",
+    "Mount Olive",
+    "Seminary"
+  ],
+  "DeSoto": [
+    "Hernando",
+    "Horn Lake",
+    "Olive Branch",
+    "Southaven",
+    "Walls"
+  ],
+  "Forrest": [
+    "Hattiesburg",
+    "Petal"
+  ],
+  "Franklin": [
+    "Bude",
+    "Meadville",
+    "Roxie"
+  ],
+  "George": [
+    "Lucedale"
+  ],
+  "Greene": [
+    "Leakesville",
+    "McLain",
+    "State Line"
+  ],
+  "Grenada": [
+    "Grenada"
+  ],
+  "Hancock": [
+    "Bay St. Louis",
+    "Diamondhead",
+    "Waveland"
+  ],
+  "Harrison": [
+    "Biloxi",
+    "D'Iberville",
+    "Gulfport",
+    "Long Beach",
+    "Pass Christian"
+  ],
+  "Hinds": [
+    "Bolton",
+    "Byram",
+    "Clinton",
+    "Edwards",
+    "Jackson",
+    "Learned",
+    "Raymond",
+    "Terry",
+    "Utica"
+  ],
+  "Holmes": [
+    "Cruger",
+    "Durant",
+    "Goodman",
+    "Lexington",
+    "Pickens",
+    "Tchula",
+    "West"
+  ],
+  "Humphreys": [
+    "Belzoni",
+    "Isola",
+    "Louise",
+    "Silver City"
+  ],
+  "Issaquena": [
+    "Mayersville"
+  ],
+  "Itawamba": [
+    "Fulton",
+    "Mantachie",
+    "Tremont"
+  ],
+  "Jackson": [
+    "Gautier",
+    "Moss Point",
+    "Ocean Springs",
+    "Pascagoula"
+  ],
+  "Jasper": [
+    "Bay Springs",
+    "Heidelberg",
+    "Louin",
+    "Montrose"
+  ],
+  "Jefferson": [
+    "Fayette"
+  ],
+  "Jefferson Davis": [
+    "Bassfield",
+    "Prentiss"
+  ],
+  "Jones": [
+    "Ellisville",
+    "Laurel",
+    "Sandersville",
+    "Soso"
+  ],
+  "Kemper": [
+    "DeKalb",
+    "Scooba"
+  ],
+  "Lafayette": [
+    "Abbeville",
+    "Oxford",
+    "Taylor"
+  ],
+  "Lamar": [
+    "Hattiesburg",
+    "Lumberton",
+    "Purvis",
+    "Sumrall"
+  ],
+  "Lauderdale": [
+    "Marion",
+    "Meridian"
+  ],
+  "Lawrence": [
+    "Monticello",
+    "New Hebron",
+    "Silver Creek"
+  ],
+  "Leake": [
+    "Carthage",
+    "Lena",
+    "Walnut Grove"
+  ],
+  "Lee": [
+    "Baldwyn",
+    "Guntown",
+    "Nettleton",
+    "Plantersville",
+    "Saltillo",
+    "Shannon",
+    "Sherman",
+    "Tupelo",
+    "Verona"
+  ],
+  "Leflore": [
+    "Greenwood",
+    "Itta Bena",
+    "Morgan City",
+    "Schlater",
+    "Sidon"
+  ],
+  "Lincoln": [
+    "Brookhaven"
+  ],
+  "Lowndes": [
+    "Artesia",
+    "Caledonia",
+    "Columbus",
+    "Crawford"
+  ],
+  "Madison": [
+    "Canton",
+    "Flora",
+    "Gluckstadt",
+    "Jackson",
+    "Madison",
+    "Ridgeland"
+  ],
+  "Marion": [
+    "Columbia"
+  ],
+  "Marshall": [
+    "Byhalia",
+    "Holly Springs",
+    "Potts Camp"
+  ],
+  "Monroe": [
+    "Aberdeen",
+    "Amory",
+    "Gattman",
+    "Hatley",
+    "Nettleton",
+    "Smithville"
+  ],
+  "Montgomery": [
+    "Duck Hill",
+    "Kilmichael",
+    "Winona"
+  ],
+  "Neshoba": [
+    "Philadelphia",
+    "Union"
+  ],
+  "Newton": [
+    "Chunky",
+    "Decatur",
+    "Hickory",
+    "Lake",
+    "Newton",
+    "Union"
+  ],
+  "Noxubee": [
+    "Brooksville",
+    "Macon",
+    "Shuqualak"
+  ],
+  "Oktibbeha": [
+    "Maben",
+    "Starkville",
+    "Sturgis"
+  ],
+  "Panola": [
+    "Batesville",
+    "Como",
+    "Courtland",
+    "Crenshaw",
+    "Crowder",
+    "Pope",
+    "Sardis"
+  ],
+  "Pearl River": [
+    "Lumberton",
+    "Picayune",
+    "Poplarville"
+  ],
+  "Perry": [
+    "Beaumont",
+    "New Augusta",
+    "Richton"
+  ],
+  "Pike": [
+    "Magnolia",
+    "McComb",
+    "Osyka",
+    "Summit"
+  ],
+  "Pontotoc": [
+    "Algoma",
+    "Ecru",
+    "Pontotoc",
+    "Sherman",
+    "Thaxton",
+    "Toccopola"
+  ],
+  "Prentiss": [
+    "Baldwyn",
+    "Booneville",
+    "Jumpertown",
+    "Marietta"
+  ],
+  "Quitman": [
+    "Crenshaw",
+    "Crowder",
+    "Falcon",
+    "Lambert",
+    "Marks",
+    "Sledge"
+  ],
+  "Rankin": [
+    "Brandon",
+    "Florence",
+    "Flowood",
+    "Jackson",
+    "Pearl",
+    "Pelahatchie",
+    "Puckett",
+    "Richland"
+  ],
+  "Scott": [
+    "Forest",
+    "Lake",
+    "Morton",
+    "Sebastopol"
+  ],
+  "Sharkey": [
+    "Anguilla",
+    "Cary",
+    "Rolling Fork"
+  ],
+  "Simpson": [
+    "Braxton",
+    "D'Lo",
+    "Magee",
+    "Mendenhall"
+  ],
+  "Smith": [
+    "Mize",
+    "Polkville",
+    "Raleigh",
+    "Sylvarena",
+    "Taylorsville"
+  ],
+  "Stone": [
+    "Wiggins"
+  ],
+  "Sunflower": [
+    "Doddsville",
+    "Drew",
+    "Indianola",
+    "Inverness",
+    "Moorhead",
+    "Ruleville",
+    "Shaw",
+    "Sunflower"
+  ],
+  "Tallahatchie": [
+    "Charleston",
+    "Glendora",
+    "Sumner",
+    "Tutwiler",
+    "Webb"
+  ],
+  "Tate": [
+    "Coldwater",
+    "Senatobia"
+  ],
+  "Tippah": [
+    "Blue Mountain",
+    "Dumas",
+    "Falkner",
+    "Ripley",
+    "Walnut"
+  ],
+  "Tishomingo": [
+    "Belmont",
+    "Burnsville",
+    "Golden",
+    "Iuka",
+    "Paden",
+    "Tishomingo"
+  ],
+  "Tunica": [
+    "Tunica"
+  ],
+  "Union": [
+    "Blue Springs",
+    "Myrtle",
+    "New Albany",
+    "Sherman"
+  ],
+  "Walthall": [
+    "Tylertown"
+  ],
+  "Warren": [
+    "Vicksburg"
+  ],
+  "Washington": [
+    "Arcola",
+    "Greenville",
+    "Hollandale",
+    "Leland",
+    "Metcalfe"
+  ],
+  "Wayne": [
+    "State Line",
+    "Waynesboro"
+  ],
+  "Webster": [
+    "Eupora",
+    "Maben",
+    "Mantee",
+    "Mathiston",
+    "Walthall"
+  ],
+  "Wilkinson": [
+    "Centreville",
+    "Crosby",
+    "Woodville"
+  ],
+  "Winston": [
+    "Louisville",
+    "Noxapater"
+  ],
+  "Yalobusha": [
+    "Coffeeville",
+    "Oakland",
+    "Water Valley"
+  ],
+  "Yazoo": [
+    "Bentonia",
+    "Eden",
+    "Satartia",
+    "Yazoo City"
+  ]
+}
