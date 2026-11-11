@@ -1,0 +1,35 @@
+/* MAGNOLIAS LUXE FINISH — dimensional foil and understated glitter.
+   All existing image assets and their positions remain unchanged. */
+:root{--ml-gold:#d9b87c;--ml-silver:#c8ccd6;--ml-rose:#cb939f;--ml-ink:#382934}
+.navwrap{border-bottom:2px solid transparent;border-image:linear-gradient(90deg,#c78b9a,#f7e6c2 28%,#bbc1ce 55%,#d6b278 80%,#bd8a9b) 1;box-shadow:0 8px 27px #3b27321d,inset 0 1px #fff9}
+.topline{box-shadow:inset 0 -1px #d2b579,0 2px 10px #422c3124}
+.ribbon{border-top:1px solid #f4ddac;border-bottom:1px solid #b98f91;box-shadow:inset 0 1px #ffffff2a,0 4px 14px #40283420}
+/* Hero and image-area have inner fine-line and outer faceted 3-D frame. */
+.hero-photo,.imagearea{position:relative;isolation:isolate;box-shadow:0 22px 45px #32202e35}
+.hero-photo:before,.imagearea:before{content:"";position:absolute;z-index:3;inset:11px;border:1px solid #fff1cde6;box-shadow:0 0 0 2px #3c2e3752,inset 0 0 0 1px #c9a77485,0 0 15px #fff1e048;pointer-events:none}
+.hero-photo:after,.imagearea:after{content:"";position:absolute;z-index:4;inset:5px;border:3px solid transparent;border-image:linear-gradient(130deg,#f7eac9,#bf995e 24%,#edf0f2 50%,#cc97a1 76%,#fcf3d8) 1;pointer-events:none}
+.imagearea:before{inset:15px}.imagearea:after{inset:8px}
+/* A slim metallic accent on cards; photos are never cropped or changed by this update. */
+.feature,.product,.event{border:1px solid #e0cbd1;border-top:3px solid #d3b16d;border-image:none;box-shadow:0 12px 28px #47303a22,inset 0 1px #ffffffec;transition:transform .25s ease,box-shadow .25s ease}
+.feature:hover,.product:hover,.event:hover{transform:translateY(-3px);box-shadow:0 18px 34px #47303a30,0 0 0 1px #d7b3739c}
+.feature>img,.product>img{border-bottom:3px solid #d4ad73;box-shadow:0 3px #e8e8ed,0 5px #ca99a2a3}
+.trio img{padding:5px;background:linear-gradient(135deg,#e8cea2,#faf6eb 28%,#bfc5ce 52%,#e5afb8 76%,#c4a06b);border:1px solid #c9a977;box-shadow:0 13px 27px #3d27313a,inset 0 1px #fff;transition:transform .25s,box-shadow .25s}
+.trio img:hover{transform:translateY(-3px);box-shadow:0 20px 32px #3d273146}
+.tile{position:relative;border:3px solid #f4e6db;outline:1px solid #d4b57f;outline-offset:-5px;box-shadow:0 8px 20px #32232b30,0 1px #fff inset}
+.tile:after{content:"";position:absolute;inset:5px;border:1px solid #fff0d5c9;box-shadow:inset 0 0 0 1px #b3b9c34a;pointer-events:none}
+.tile:nth-child(3n + 2){border-color:#e7e8ed;outline-color:#b5bdca}
+.tile:nth-child(3n){border-color:#f4dfe4;outline-color:#c994a1}
+.tile:hover{box-shadow:0 14px 30px #32232b46}
+.section.center>h2:after{content:"";display:block;margin:21px auto 0;height:2px;width:min(130px,32vw);background:linear-gradient(90deg,transparent,#c992a3 20%,#f4dcaa 47%,#bfc6d2 73%,transparent);box-shadow:0 2px 8px #ba8f7e4a}
+.button,.navcta{box-shadow:0 5px 15px #35212a2e,inset 0 1px #ffffff32;transition:transform .2s,box-shadow .2s,background .2s}
+.button:hover,.navcta:hover{transform:translateY(-2px);box-shadow:0 9px 22px #35212a40}
+/* Jewel-like mobile hamburger, original button behavior intact. */
+.menubtn{position:relative;isolation:isolate;width:54px;height:49px;padding:0;flex:0 0 54px;border-radius:10px;border:1px solid #b99663;color:#fff8e8;font-size:27px;line-height:1;text-shadow:0 1px 2px #36212b,0 0 8px #ffe9be9c;background:radial-gradient(circle at 18% 15%,#fff 0 1px,transparent 2px),radial-gradient(circle at 82% 74%,#fff2cb 0 1px,transparent 2px),linear-gradient(132deg,#57374d,#a16b7d 29%,#d7b570 49%,#8e8691 68%,#67455a);box-shadow:inset 0 1px 1px #fff9,inset 0 -4px 9px #321e2a55,0 3px 0 #9c7965,0 9px 19px #36222c40;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.menubtn:before{content:"";position:absolute;inset:3px;border-radius:7px;border:1px solid #fff5d8a0;pointer-events:none}
+.menubtn:after{content:"✦";position:absolute;right:-6px;top:-10px;color:#fff5d0;font-size:15px;text-shadow:0 0 4px #fff,0 0 10px #e3bd77;animation:magnoliaJewel 2.8s ease-in-out infinite;pointer-events:none}
+.menubtn:hover{transform:translateY(-2px);box-shadow:inset 0 1px #fff9,0 5px 0 #9c7965,0 13px 23px #36222c5c}
+.menubtn:active{transform:translateY(2px);box-shadow:inset 0 2px 9px #35202a66,0 2px 8px #36222c37}
+.navwrap nav.show{border-bottom:2px solid #d1b177;box-shadow:0 18px 29px #422b3433}
+@keyframes magnoliaJewel{0%,100%{opacity:.5;transform:scale(.75) rotate(-15deg)}48%{opacity:1;transform:scale(1.2) rotate(15deg)}}
+@media(max-width:600px){.trio img{padding:3px}.hero-photo:before{inset:8px}.hero-photo:after{inset:4px;border-width:2px}.imagearea:before{inset:10px}.imagearea:after{inset:5px;border-width:2px}.tile{border-width:2px;outline-offset:-4px}}
+@media(prefers-reduced-motion:reduce){.menubtn:after{animation:none}.feature,.product,.event,.trio img,.button,.navcta,.menubtn{transition:none}}
